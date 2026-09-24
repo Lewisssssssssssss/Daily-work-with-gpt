@@ -6,7 +6,7 @@ A working knowledge base for repeatable daily workflows with GPT agents. It coll
 
 ## Included Canvas documentation
 
-- `CANVAS_LOGIN_GUIDE.md` explains the complete Johns Hopkins Canvas login and session-recovery workflow for users.
+- `CANVAS_LOGIN_GUIDE.md` explains a provider-neutral Canvas login and session-recovery workflow for users.
 - `AGENT_CANVAS_LOGIN.md` gives agents a concise procedure for reusing Canvas sessions, handling login and MFA safely, verifying access, and preserving read-only boundaries.
 
-The Canvas documents are designed to make sign-in dependable while ensuring that credentials, MFA secrets, coursework submissions, and unrelated account changes remain outside automated handling.
+The Canvas documents are intentionally institution-agnostic. The user or workspace supplies the official Canvas URL; the agent must not guess or hard-code a school-specific login domain.
